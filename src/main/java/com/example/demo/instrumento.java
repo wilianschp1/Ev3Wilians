@@ -19,8 +19,6 @@ public class instrumento {
 
     private String nombre;
 
-
-
     @ManyToOne(cascade = CascadeType.ALL)
     @JoinColumn(name = "id_categoria")
     private categoria categoria;
@@ -50,8 +48,4 @@ public class instrumento {
     public void setCategoria(categoria categoria) {
         this.categoria = categoria;
     }
-
-
-
-
 }
