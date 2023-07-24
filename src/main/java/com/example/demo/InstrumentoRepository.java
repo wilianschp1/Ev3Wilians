@@ -7,8 +7,8 @@ import org.springframework.data.rest.core.annotation.RepositoryRestResource;
 import java.util.List;
 
 @RepositoryRestResource(collectionResourceRel = "instrumentos", path = "instrumentos")
-public interface InstrumentoRepository extends PagingAndSortingRepository<Instrumento, Integer>,CrudRepository<Instrumento, Integer> {
+public interface InstrumentoRepository extends PagingAndSortingRepository<instrumento, Integer>,CrudRepository<instrumento, Integer> {
 
-    List<Instrumento> findByNombre(@Param("nombre") String nombre);
+    List<instrumento> findByNombre(@Param("nombre") String nombre);
 
 }
