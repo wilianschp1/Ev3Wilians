@@ -40,14 +40,10 @@ public class categoria {
     public void setNombre(String nombre) {
         this.nombre = nombre;
     }
-
     public Set<instrumento> getInstrumento() {
         return instrumentos;
     }
-
     public void setInstrumento(Set<instrumento> instrumentos) {
         this.instrumentos = instrumentos;
     }
-
-
 }
