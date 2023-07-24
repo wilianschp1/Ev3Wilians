@@ -22,8 +22,6 @@ public class Instrumento {
     @JoinColumn(name = "id_categoria")
     private Categoria categoria;
 
-    // Getters and Setters
-
     public Long getId() {
         return id;
     }

@@ -16,13 +16,10 @@ public class Categoria {
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
     private Long id;
-
     private String nombre;
 
     @OneToMany(mappedBy = "categoria")
     private Set<Instrumento> instrumentos = new HashSet<>();
-
-    // Getters and Setters
 
     public Long getId() {
         return id;
