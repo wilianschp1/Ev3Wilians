@@ -2,19 +2,22 @@
 #@api = {{server}}/api/ec3
 
 ################ Categorias: ################
+###
 GET {{server}}/categorias
-################
+###
 POST {{server}}/categorias
 Content-Type: application/json
 
 {"nombre": "Instrumentos de cuerda"}
 ################ Instrumentos: ################
+###
 GET {{server}}/instrumentos
-################
+###
 POST {{server}}/instrumentos
 Content-Type: application/json
 
-{"nombre": "Guitarra", "categoria": "http://localhost/categorias/1"
-GET {{server}}/instrumentos/1/categoria
-#
+{"nombre": "Violin", "categoria": "http://localhost/categorias/53"}
+###
+GET {{server}}/instrumentos/2/categoria
+###
 GET {{server}}/instrumentos?sort=nombre,desc
