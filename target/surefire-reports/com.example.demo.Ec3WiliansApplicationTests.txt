@@ -1,4 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: com.example.demo.Ec3WiliansApplicationTests
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 12.525 s - in com.example.demo.Ec3WiliansApplicationTests
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 10.738 s - in com.example.demo.Ec3WiliansApplicationTests

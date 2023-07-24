@@ -1,2 +1,17 @@
-@server = INSERTAR URL DE RENDER ACÁ
-@api = {{server}}/api/ec3
+@server = 
+#@api = {{server}}/api/ec3
+
+################ Categorias: ################
+GET {{server}}/categorias
+POST {{server}}/categorias
+Content-Type: application/json
+
+{"nombre": "Instrumentos de cuerda"}
+################ Instrumentos: ################
+GET {{server}}/instrumentos
+POST {{server}}/instrumentos
+Content-Type: application/json
+
+{"nombre": "Guitarra222", "categoria": "http://localhost/categorias/2%22%7D
+GET {{server}}/instrumentos/1/categoria
+GET {{server}}/instrumentos?sort=nombre,desc
